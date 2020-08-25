@@ -1,0 +1,23 @@
+{
+  "name": "file-upload-digital-ocean",
+  "version": "1.0.0",
+  "description": "exaple file upload aws-sdk with multer",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "gabriel-roque",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.738.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
